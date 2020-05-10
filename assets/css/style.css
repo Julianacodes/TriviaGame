@@ -2,10 +2,11 @@
 body{
 
     background-image: url(../images/Starbackground.jpg );
+    text-align: center;
 }
 
 .texted-muted{
-    colore : yellow;
+    color : yellow;
 }
 
 .last-seconds{
@@ -13,8 +14,10 @@ body{
 }
 
 .option{
-    margin: 15px;
+    margin: 50px;
 }
+
+
 
 
 
