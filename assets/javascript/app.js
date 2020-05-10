@@ -98,7 +98,7 @@ var trivia = {
 
         //creates all the trivia guess options in the html
         $.each(questionOptions, function(index, key){
-            $('#options').append($('<button class="option btn btn-info btn-lg">'+key+'</button>'));
+            $('#options').append($('<button class="option btn btn-warning btn-lg">'+key+'</button>'));
         })
     },
 
@@ -154,7 +154,7 @@ var trivia = {
 
         if($(this).text() === currentAnswer) {
             //turn button green for correct
-            $(this).addClass('btn-success').removeClass('btn-info');
+            $(this).addClass('btn-success').removeClass('btn-warning');
 
             trivia.correct++;
             clearInterval(trivia.timerId);
@@ -164,7 +164,7 @@ var trivia = {
          //else the user picked wrong option, increment incorrect
          else{
              //turn button clicked red for incorrect
-             $(this).addClass('btn-danger').removeClass('btn-info');
+             $(this).addClass('btn-danger').removeClass('btn-warning');
 
              trivia.incorrect++;
              clearInterval(trivia.timerId);
