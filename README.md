@@ -1,7 +1,7 @@
 # TriviaGame
 
 ## Overview
-I created a trvia game that shows only one question until the player answers it or their time runs out.
+I created a trivia game that shows only one question until the player answers it or their time runs out.
 
 ## Full Game Break Down
 * The player only has a limited amount of time to answer each trivia question.
@@ -11,3 +11,6 @@ I created a trvia game that shows only one question until the player answers it 
 * The game ends when the user has either answered all the trivia questions or if the time runs out.
 * The final score will be show with the number of correct, incorrect, and unanswered questions. 
 * The user will also be able to play again by selectiing the Start Game button.
+
+## Play the Game!
+Live Link: https://julianacodes.github.io/TriviaGame/ 
